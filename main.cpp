@@ -1,7 +1,9 @@
 #include<iostream>
+#include "Console.h"
 using namespace std;
 int main(){
-	InitData();
+    Console myConsole;
+    myConsole.play();
 	
 	return 0;
 }
